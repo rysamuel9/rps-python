@@ -36,7 +36,8 @@ gunting = '''
 
 gameIcon = [batu, kertas, gunting]
 
-userPilih = int(input("Pilihan user: "))
+namaUser = input("Nama Anda: ")
+userPilih = int(input(f"Pilihan {namaUser}: "))
 
 if userPilih >= 3 or userPilih < 0:
     print("Invalid nomor, kamu kalah!")
